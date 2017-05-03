@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Hello from './App';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  //  ReactDOM.render takes the Virtual DOM node created by extends Component (in App.js) and adds it to the actual DOM.
+  <Hello />,
   document.getElementById('root')
 );
