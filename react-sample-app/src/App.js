@@ -13,7 +13,9 @@ class Hello extends Component {
         <div className="App-header">
         {/*   was  src={logo} */}
           <img src='https://logopond.com/logos/2604a0c4c5ede1bf3f2f999e145ae960.png' className="App-logo" alt="logo" />
-          <h2>Hello World!</h2>
+          <h2>Hello {this.props.name}!</h2>
+          <p>and you are {this.props.age} years old</p>
+          
         </div>
         <p className="App-intro">
           Simon says: "To get started, edit <code>src/App.js</code> and save to reload."
